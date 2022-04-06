@@ -64,11 +64,12 @@
 
 
         <TextView
+            android:id="@+id/question"
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textColor="#ffffff"
-            android:id="@+id/question"
             android:text="@string/question_1"
+            android:textColor="#ffffff"
             android:textSize="25sp">
 
         </TextView>
@@ -87,17 +88,17 @@
 
 
     <TextView
+        android:id="@+id/optionA"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/optionA"
-        android:text="@string/question1_A"
         android:background="@drawable/optiondesign"
-        android:textColor="#272343"
-        android:textAlignment="center"
         android:paddingTop="14dp"
-        >
+        android:text="@string/question1_A"
+        android:textAlignment="center"
+        android:textColor="#272343">
 
     </TextView>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
