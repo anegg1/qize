@@ -1,6 +1,6 @@
 package com.example.quiztutorial;
 
-public class answerclass {
+public class  answerclass {
 
     private int optionA,optionB,optionC,optionD,questionid,answerid;
 
